@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: arial;
+}
+
+h1{
+  font-size: var(--font-sizeTitle);
+}
+
+h3{
+  font-size: var(--font-sizeSubtitle);
+}
+
+p{
+  font-size: var(--font-sizetexto);
+}
+
+html{
+  font-size: 16px
+}
+
+:root{
+  --font-sizetexto: .87em;
+  --font-sizeTitle: 2em;
+  --font-sizeSubtitle: 1.5em;
+
+  --spacing: 10px;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0px auto;
+}
+
