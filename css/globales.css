@@ -12,7 +12,7 @@ h3{
   font-size: var(--font-sizeSubtitle);
 }
 
-p{
+p, a{
   font-size: var(--font-sizetexto);
 }
 
