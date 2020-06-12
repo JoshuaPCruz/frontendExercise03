@@ -1,0 +1,23 @@
+.article{
+  display: flex;
+  background-color: white;
+  padding: var(--spacing);
+  border-bottom: 1px solid var(--color-secondary)
+}
+
+.article__author{
+  width: 20%;
+}
+
+.article__content{
+  width: 80%;
+}
+
+.article__content a{
+  display: inline-block;
+  margin: var(--spacingx2) 0px;
+}
+
+.article__content a:hover{
+  text-decoration: underline;
+}

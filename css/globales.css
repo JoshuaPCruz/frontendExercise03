@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: arial;
+  box-sizing: border-box;
 }
 
 h1{
@@ -11,6 +12,7 @@ h1{
 h2{
   font-size: var(--font-sizeSubtitle);
   color: var(--color-primary);
+  margin-bottom: var(--spacing);
 }
 
 h3{
@@ -20,9 +22,11 @@ h3{
 
 p, a{
   font-size: var(--font-sizetexto);
+  text-decoration: none;
 }
 
 html{
+  padding: var(--spacingx2) 0px;
   font-size: 16px;
   background-color: var(--color-background); 
 }
@@ -52,7 +56,7 @@ html{
 }
 
 .red {
-  background-color: #d71d10;
+  background-color: var(--color-primary);
 }
 
 .green {
