@@ -1,0 +1,10 @@
+.post{
+  display: flex;
+  background-color: white;
+  margin: var(--spacingx2) auto;
+  padding: var(--spacingx2);
+}
+
+.post__image{
+  margin-right: var(--spacing);
+}

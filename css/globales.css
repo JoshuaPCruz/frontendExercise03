@@ -55,6 +55,15 @@ html{
   font-weight: bold;
 }
 
+.image-container{
+  background-color: var(--color-background);
+  padding: var(--spacing);
+}
+
+.image{
+  width: 100%;
+}
+
 .red {
   background-color: var(--color-primary);
 }

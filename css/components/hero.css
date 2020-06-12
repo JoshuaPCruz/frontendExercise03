@@ -11,13 +11,6 @@
 }
 
 .hero__image{
-  background-color: var(--color-background);
-  padding: var(--spacing);
   width: 30%;
   margin-left: var(--spacing);
-}
-
-
-.hero__image img{
-  width: 100%;
 }
