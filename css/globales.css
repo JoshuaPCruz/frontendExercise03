@@ -8,8 +8,14 @@ h1{
   font-size: var(--font-sizeTitle);
 }
 
-h3{
+h2{
   font-size: var(--font-sizeSubtitle);
+  color: var(--color-primary);
+}
+
+h3{
+  font-size: var(--font-sizeSmall);
+  color: var(--color-secondary);
 }
 
 p, a{
@@ -17,20 +23,32 @@ p, a{
 }
 
 html{
-  font-size: 16px
+  font-size: 16px;
+  background-color: var(--color-background); 
 }
 
 :root{
   --font-sizetexto: .87em;
   --font-sizeTitle: 2em;
   --font-sizeSubtitle: 1.5em;
+  --font-sizeSmall: .80em;
+  --color-secondary: #C4C4C4;
+  --color-primary: #c23b4f;
+  --color-background: #ebeced;
 
   --spacing: 10px;
+  --spacingx2: 20px;
+
 }
 
 .container {
   max-width: 1024px;
   margin: 0px auto;
+}
+
+.title-style{
+  color: var(--color-primary);
+  font-weight: bold;
 }
 
 .red {

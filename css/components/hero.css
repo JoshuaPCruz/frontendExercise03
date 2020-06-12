@@ -1,0 +1,23 @@
+.hero{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  margin: var(--spacingx2) auto;
+  padding: var(--spacing);
+}
+
+.hero__details{
+  width: 70%;
+}
+
+.hero__image{
+  background-color: var(--color-background);
+  padding: var(--spacing);
+  width: 30%;
+  margin-left: var(--spacing);
+}
+
+
+.hero__image img{
+  width: 100%;
+}
