@@ -33,3 +33,34 @@ html{
   margin: 0px auto;
 }
 
+.red {
+  background-color: #d71d10;
+}
+
+.green {
+  background-color: #4ef14e;
+}
+
+.yellow {
+  background-color: #f0f770;
+}
+
+.blue{
+  background-color: #4ff8f5;
+}
+
+.orange{
+  background-color: #f47826;
+}
+
+.border-right{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.border-left{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+}
