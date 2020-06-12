@@ -1,1 +1,3 @@
 # frontendExercise03
+
+Este proyecto esta creado con puro HTML, CSS y JS, todo el CSS está separado por un archivo global y una carpeta llamada components, en esta carpeta se separaron los estilos en los diferentes componentes de la página, con la finalidad de hacer más fácil su interpretación, en el archivo de globales.css se crearon variables con la finalidad que todo el código fuera modificable con facilidad.
